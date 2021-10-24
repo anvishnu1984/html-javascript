@@ -1,5 +1,4 @@
 #!/bin/sh
 echo "Good Morning"
-if [ $1 == "dev" ]; then
-   echo "dev"
-fi 
+echo $1
+echo "environment"
